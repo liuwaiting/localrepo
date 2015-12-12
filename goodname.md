@@ -1,1 +1,1 @@
-It is a bad name file.
+It is a good name file.
