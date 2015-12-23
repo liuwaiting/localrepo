@@ -10,5 +10,6 @@ cfd = nltk.ConditionalFreqDist(
     for lang in languages
     for word in udhr.words(lang + '-Latin1'))
 
+cfd.tabulate(conditions=['English','German_Deutsch'], samples=range(10), cumulative=True)
 cfd.plot(cumulative=True)
 
